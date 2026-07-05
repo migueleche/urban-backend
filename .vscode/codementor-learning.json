@@ -1,0 +1,16 @@
+{
+  "JS-001": {
+    "occurrences": 30,
+    "confidence": 1,
+    "mastered_explicitly": false,
+    "first_seen": "2026-07-05T20:40:26.918Z",
+    "last_seen": "2026-07-05T20:44:17.815Z"
+  },
+  "SEC-002": {
+    "occurrences": 5,
+    "confidence": 1,
+    "mastered_explicitly": false,
+    "first_seen": "2026-07-05T20:41:46.077Z",
+    "last_seen": "2026-07-05T20:44:17.805Z"
+  }
+}
