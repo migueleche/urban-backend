@@ -15,10 +15,10 @@ app.use(express.json({ limit: '50mb' }));
 // CONEXIÓN A LA BASE DE DATOS
 // ==========================================
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '47918976', // Asegurate de dejar tu contraseña acá
-    database: 'urban_jungle'
+    host: 'b1wzqw9seyvyfhjiodlz-mysql.services.clever-cloud.com',
+    user: 'uiefd1ljfmbjjdmr',
+    password: 'QMrkWcWEJIRiCjUQbPk2', 
+    database: 'b1wzqw9seyvyfhjiodlz'
 });
 
 db.connect((err) => {
