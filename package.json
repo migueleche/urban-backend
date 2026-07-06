@@ -1,18 +1,27 @@
 {
-  "name": "urban-backend",
+  "name": "urban-jungle-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend seguro para Urban Jungle",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "cors": "^2.8.6",
     "express": "^5.2.1",
-    "mysql2": "^3.22.5"
+    "mysql2": "^3.22.5",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "bcryptjs": "^2.4.3",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.2.0",
+    "express-validator": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
